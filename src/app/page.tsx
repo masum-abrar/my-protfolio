@@ -23,9 +23,7 @@ export default function Home() {
         <Hero></Hero>
         <Skill></Skill>
         <MyProject></MyProject>
-        <h1>
-          jkljkdalhkrke hkjhjnankf
-        </h1>
+        
         </div>
       </main>
     </div>

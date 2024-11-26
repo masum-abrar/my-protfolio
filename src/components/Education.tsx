@@ -29,11 +29,11 @@ export const Education = () => {
         {educationDetails.map((education, index) => (
           <div
             key={index}
-            className="w-full max-w-lg p-6  rounded-lg shadow-lg transition duration-200 hover:scale-105"
+            className="w-full max-w-lg p-6  rounded-lg shadow-lg transition duration-100 hover:scale-105"
           >
             {/* Applying BackgroundGradient inside each card */}
             <BackgroundGradient
-            className='p-12  bg-gray-900'
+            className='p-12 rounded-2xl  bg-gray-900'
             >
               <h3 className="text-xl font-semibold text-white">{education.title}</h3>
               <p className="text-sm text-white">{education.institution}</p>

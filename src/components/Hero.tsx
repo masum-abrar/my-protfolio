@@ -2,6 +2,7 @@ import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 import { MagicButton } from "./ui/MagicButton";
+import BorderMagic from "./ui/BorderMagic";
 
 
 export const Hero = () => {
@@ -38,7 +39,9 @@ frontend developer based in Chittagong"
 
 Contact Me
 My Resume</p>
-<MagicButton ></MagicButton>
+<div className="text-center">
+<BorderMagic></BorderMagic>
+</div>
       </div>
       
     </div>

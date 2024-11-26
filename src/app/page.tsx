@@ -1,3 +1,5 @@
+
+import { BackgroundBeamsDemo } from "@/components/BackgroundBeamsDemo";
 import { Education } from "@/components/Education";
 import { Hero } from "@/components/Hero";
 import MyProject from "@/components/MyProject";
@@ -25,6 +27,8 @@ export default function Home() {
         <Skill></Skill>
         <Education></Education>
         <MyProject></MyProject>
+        <BackgroundBeamsDemo></BackgroundBeamsDemo>
+        
         
         </div>
       </main>

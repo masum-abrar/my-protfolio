@@ -1,3 +1,4 @@
+import { Education } from "@/components/Education";
 import { Hero } from "@/components/Hero";
 import MyProject from "@/components/MyProject";
 import Skill from "@/components/Skill";
@@ -22,6 +23,7 @@ export default function Home() {
         ></FloatingNav>
         <Hero></Hero>
         <Skill></Skill>
+        <Education></Education>
         <MyProject></MyProject>
         
         </div>

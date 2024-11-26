@@ -11,6 +11,7 @@ export const HoverEffect = ({
     title: string;
     description: string;
     link: string;
+    icon : string;
   }[];
   className?: string;
 }) => {
@@ -49,8 +50,11 @@ export const HoverEffect = ({
             )}
           </AnimatePresence>
           <Card>
-            <CardTitle>{item.title}</CardTitle>
-            <CardDescription>{item.description}</CardDescription>
+          <div className="hover-item flex flex-col items-center">
+  {item.icon && <div className="mb-4">{item.icon}</div>}
+  <h3 className="text-lg font-bold">{item.title}</h3>
+  <p className="text-sm">{item.description}</p>
+</div>
           </Card>
         </Link>
       ))}

@@ -1,6 +1,7 @@
 
 import { BackgroundBeamsDemo } from "@/components/BackgroundBeamsDemo";
 import { Education } from "@/components/Education";
+import { Footer } from "@/components/Footer";
 import { Hero } from "@/components/Hero";
 import MyProject from "@/components/MyProject";
 import Skill from "@/components/Skill";
@@ -28,6 +29,7 @@ export default function Home() {
         <Education></Education>
         <MyProject></MyProject>
         <BackgroundBeamsDemo></BackgroundBeamsDemo>
+        <Footer></Footer>
         
         
         </div>

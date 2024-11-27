@@ -39,7 +39,7 @@ frontend developer based in Chittagong"
 
 Contact Me
 My Resume</p>
-<div className="text-center">
+<div className="text-center ">
 <BorderMagic></BorderMagic>
 </div>
       </div>

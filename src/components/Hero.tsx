@@ -8,7 +8,7 @@ import BorderMagic from "./ui/BorderMagic";
 export const Hero = () => {
   return (
     <div>
-      <h1>its hero section</h1>
+     
       <div>
       <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"

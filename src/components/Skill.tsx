@@ -45,8 +45,8 @@ const Skill = () => {
   ];
 
   return (
-    <div className="py-20 w-full">
-      <h2 className="text-center text-6xl font-bold mb-6 text-white-100 mt-40">
+    <div className="py-20 w-full " id="skills">
+      <h2 className="text-center text-6xl font-bold mb-6 text-white mt-40 mb-20">
         My Skill Set
       </h2>
 

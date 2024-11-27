@@ -44,8 +44,8 @@ const MyProject = () => {
   ];
 
   return (
-    <div className="py-20">
-      <h2 className="text-4xl font-bold text-center text-white mb-12">My Projects</h2>
+    <div className="py-20" id ="projects">
+      <h2 className="text-6xl font-bold text-center text-white mb-12">My Projects</h2>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
           <div

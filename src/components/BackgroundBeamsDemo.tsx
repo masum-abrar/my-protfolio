@@ -6,7 +6,7 @@ import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaInstagram, FaGithub, FaFacebook 
 
 export function BackgroundBeamsDemo() {
   return (
-    <div className="h-[40rem] w-full rounded-md relative flex gap-6 flex-col items-center justify-center antialiased">
+    <div className="h-[40rem] w-full rounded-md relative flex gap-6 flex-col items-center justify-center antialiased" id="contact">
       <div className=" mx-auto p-6 ">
         <h1 className="relative z-10 text-lg md:text-7xl bg-clip-text text-transparent text-white mt-36 mb-24 bg-gradient-to-b from-neutral-200 to-neutral-600 text-center font-sans font-bold mb-8">
           Contact Me

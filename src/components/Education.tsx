@@ -22,7 +22,7 @@ export const educationDetails = [
 export const Education = () => {
   return (
     <div id="education" className="py-44  ">
-      <h2 className="text-center text-6xl font-bold mb-6 text-white mt-36">
+      <h2 className="text-center text-6xl font-bold mb-6 text-white mb-20 " id="eduction">
         My Education
       </h2>
       <div className="lg:flex  items-center justify-center gap-8   ">

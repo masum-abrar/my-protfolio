@@ -76,7 +76,7 @@ export function FloatingDockDemo() {
   };
 
   return (
-    <div className="fixed left-[90%] translate-x-[90%] md:left-[50%] md:translate-x-[-50%] bottom-[50px] z-[101]">
+    <div className="fixed left-[70%] translate-x-[90%] md:left-[50%] md:translate-x-[-50%] bottom-[50px] z-[101]">
       <FloatingDock
        // only for demo, remove for production
         items={links.map((link) => ({

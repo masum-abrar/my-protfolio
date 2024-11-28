@@ -1,5 +1,6 @@
 
 import { BackgroundBeamsDemo } from "@/components/BackgroundBeamsDemo";
+
 import { Education } from "@/components/Education";
 import { FloatingDockDemo } from "@/components/FloatingDockDemo";
 import { Footer } from "@/components/Footer";
@@ -32,7 +33,7 @@ export default function Home() {
         <MyProject></MyProject>
         <BackgroundBeamsDemo></BackgroundBeamsDemo>
         <Footer></Footer>
-        
+      
         
         </div>
       </main>

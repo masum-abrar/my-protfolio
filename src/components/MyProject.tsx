@@ -41,6 +41,18 @@ const MyProject = () => {
       ],
       href: "https://masum-abrar.github.io/Bus_Ticket/",
     },
+     {
+      id: 3,
+      img: "https://i.ibb.co/nsQ3ngVN/parjatak.png",
+      title: "parjatak",
+      des: "This Bus Ticket Booking website offers a seamless platform for booking bus tickets with discounts.",
+      iconLists: [
+        "https://img.icons8.com/color/48/000000/html-5--v1.png",
+        "https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000",
+        "https://img.icons8.com/color/48/000000/react-native.png",
+      ],
+      href: "https://trip-eosin.vercel.app/",
+    },
   ];
 
   return (

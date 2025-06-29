@@ -35,10 +35,12 @@ export const Hero = () => {
 frontend developer based in Chittagong"
           className="text-center bg-clip-text text-transparent text-3xl bg-gradient-to-r  text-[40px] md:text-5xl lg:text-6xl"
         />
-        <p className=" text-center mb-8 mt-4">I specialize in creating dynamic and beautiful web pages. <br /> I have been exploring in this field for nearly last 2 years, and have been loving every minute of it.
+       <p className="text-center mb-8 mt-4">
+  I specialize in crafting dynamic and visually appealing web interfaces. <br />
+  As a passionate Frontend Developer, I love turning ideas into interactive digital experiences.
+  
+</p>
 
-Contact Me
-My Resume</p>
 <div className="text-center ">
 <BorderMagic></BorderMagic>
 </div>

@@ -3,14 +3,23 @@ import React from "react";
 import { BackgroundBeams } from "./ui/background-beams";
 import BorderMagic from "./ui/BorderMagic";
 import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaInstagram, FaGithub, FaFacebook } from 'react-icons/fa';
+import { Button } from "./ui/moving-border";
+import { MagicButton } from "./ui/MagicButton";
 
 export function BackgroundBeamsDemo() {
   return (
     <div className="h-[40rem] w-full rounded-md relative flex gap-6 flex-col items-center justify-center antialiased" id="contact">
       <div className=" mx-auto p-6 ">
-        <h1 className="relative z-10 text-lg md:text-7xl bg-clip-text text-transparent text-white mt-36 mb-24 bg-gradient-to-b from-neutral-200 to-neutral-600 text-center font-sans font-bold mb-8">
-          Contact Me
-        </h1>
+         <h2 className="relative text-center mb-20">
+ <h2 className="text-center font-serif italic text-4xl md:text-5xl text-white mb-16">
+  <span className="relative">
+   Contact Me
+    {/* <span className="absolute bottom-0 left-0 right-0 h-px bg-white/50"></span> */}
+  </span>
+</h2>
+  <span className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-blue-400 to-purple-600 rounded-full"></span>
+  <span className="absolute -bottom-6 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-gradient-to-r from-blue-400 to-purple-600 rounded-full opacity-50"></span>
+</h2>
         {/* Flex container for the two sections */}
         <div className="flex flex-col md:flex-row gap-20 lg:gap-56">
           {/* Contact Information */}
@@ -67,7 +76,7 @@ export function BackgroundBeamsDemo() {
         </div>
       </div>
       <BackgroundBeams />
-      <BorderMagic />
+     <MagicButton/>
     </div>
   );
 }

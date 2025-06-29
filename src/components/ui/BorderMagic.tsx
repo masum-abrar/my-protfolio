@@ -4,7 +4,7 @@ const BorderMagic = () => {
   return (
     <div>
       <a
-        href="/Masum_Resume.pdf" // Make sure Resume.pdf is in the `public` folder
+        href="/Masum_Resume .pdf" // Make sure Resume.pdf is in the `public` folder
         download="Masum_Resume.pdf"
         className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
       >
